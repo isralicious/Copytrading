@@ -261,6 +261,13 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .profit-card .meta{padding:16px 18px;display:flex;justify-content:space-between;align-items:center}
 .profit-card .meta .pair{color:var(--txt);font-weight:600}
 .profit-card .meta .pnl{color:var(--green);font-weight:800;font-family:"Playfair Display",serif;font-size:22px}
+.profit-card .shot .big{font-family:"Playfair Display",serif;font-size:38px;font-weight:800;color:var(--green);line-height:1}
+.profit-card .shot .cap{color:var(--muted);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-top:8px}
+.profit-card .meta .tagm{color:var(--gold-2);font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.results-note{text-align:center;color:var(--muted-2);font-size:12.5px;margin-top:18px}
+.profit-card.shot-img{width:248px}
+.profit-card.shot-img .shot{aspect-ratio:auto;height:368px;padding:0;background:#0b0a08;border-bottom:none}
+.profit-card.shot-img .shot img{width:100%;height:100%;object-fit:contain;display:block}
 .testi-card{width:340px;border:1px solid var(--line);border-radius:16px;padding:26px;
   background:linear-gradient(180deg,var(--panel-2),var(--panel))}
 .testi-card .stars{color:var(--gold-2);margin-bottom:12px;letter-spacing:2px}
@@ -337,7 +344,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
       <div class="mark">AF</div>
       <div>Automated&nbsp;Freedom<small>Gold Copytrading Program</small></div>
     </div>
-    <a href="#join" class="btn gold cta">Join the Waitlist</a>
+    <a href="https://t.me/+YG1qPBpMLdhhYjc8" target="_blank" rel="noopener" class="btn gold cta">Join the Waitlist</a>
   </div>
 </nav>
 
@@ -348,7 +355,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
     <h1>The best strategy and traders, executing for you <span class="goldgrad">in your pocket</span>.</h1>
     <p class="sub">Automated Freedom – Gold is a private copytrading program for our community. One elite strategy, executed by a team with 26+ years inside the world's biggest brokers, hedge funds and banks, copied straight into your own account.</p>
     <div class="hero-cta">
-      <a href="#join" class="btn gold">Reserve My Spot →</a>
+      <a href="https://t.me/+YG1qPBpMLdhhYjc8" target="_blank" rel="noopener" class="btn gold">Reserve My Spot →</a>
       <a href="#how" class="btn ghost">How it works</a>
     </div>
     <div class="trustline">Your funds stay in your own broker account · You keep full control · 70/30 profit split, you keep 70%</div>
@@ -373,7 +380,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
       <div class="car-head">
         <div>
           <span class="kicker">Real Results</span>
-          <h3 style="margin-top:6px">Profits from the pool <span style="color:var(--muted-2);font-size:14px;font-weight:400">(placeholders)</span></h3>
+          <h3 style="margin-top:6px">Real results from the family</h3>
         </div>
         <div class="car-nav">
           <button class="car-btn" data-dir="-1" aria-label="Previous">‹</button>
@@ -381,12 +388,26 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
         </div>
       </div>
       <div class="car-track">
-        <!-- Replace each .shot with a real screenshot: <img src="..." style="width:100%;height:100%;object-fit:cover"> -->
-        <div class="profit-card"><div class="shot"><div class="ph"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 16l5-5 4 4 8-8"/></svg>Profit screenshot</div></div><div class="meta"><span class="pair">XAU/USD</span><span class="pnl">+$4,820</span></div></div>
-        <div class="profit-card"><div class="shot"><div class="ph"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 16l5-5 4 4 8-8"/></svg>Profit screenshot</div></div><div class="meta"><span class="pair">EUR/USD</span><span class="pnl">+$1,375</span></div></div>
-        <div class="profit-card"><div class="shot"><div class="ph"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 16l5-5 4 4 8-8"/></svg>Profit screenshot</div></div><div class="meta"><span class="pair">GBP/JPY</span><span class="pnl">+$2,940</span></div></div>
-        <div class="profit-card"><div class="shot"><div class="ph"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 16l5-5 4 4 8-8"/></svg>Profit screenshot</div></div><div class="meta"><span class="pair">Monthly P&amp;L</span><span class="pnl">+$11,260</span></div></div>
-        <div class="profit-card"><div class="shot"><div class="ph"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 16l5-5 4 4 8-8"/></svg>Profit screenshot</div></div><div class="meta"><span class="pair">US30</span><span class="pnl">+$3,510</span></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_8_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_11_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_1_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_22_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_24_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_21_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_16_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_4_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_18_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_13_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_10_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_9_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_5_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_23_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_15_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_19_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_7_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_17_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_20_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
+        <div class="profit-card shot-img"><div class="shot"><img src="images/photo_14_2026-06-04_20-08-29.jpg" alt="Member result" loading="lazy"></div></div>
       </div>
     </div>
 
@@ -395,7 +416,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
       <div class="car-head">
         <div>
           <span class="kicker">Community Voices</span>
-          <h3 style="margin-top:6px">What the family says <span style="color:var(--muted-2);font-size:14px;font-weight:400">(placeholders)</span></h3>
+          <h3 style="margin-top:6px">What the family says</h3>
         </div>
         <div class="car-nav">
           <button class="car-btn" data-dir="-1" aria-label="Previous">‹</button>
@@ -403,12 +424,18 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
         </div>
       </div>
       <div class="car-track">
-        <div class="testi-card"><div class="stars">★★★★★</div><p>"Placeholder testimonial. Replace with a real member quote about their experience and results."</p><div class="who"><div class="av">A</div><div><b>Member name</b><span>Balanced Gold</span></div></div></div>
-        <div class="testi-card"><div class="stars">★★★★★</div><p>"Placeholder testimonial. Replace with a real member quote about their experience and results."</p><div class="who"><div class="av">M</div><div><b>Member name</b><span>Apex Gold</span></div></div></div>
-        <div class="testi-card"><div class="stars">★★★★★</div><p>"Placeholder testimonial. Replace with a real member quote about their experience and results."</p><div class="who"><div class="av">S</div><div><b>Member name</b><span>Steady Gold</span></div></div></div>
-        <div class="testi-card"><div class="stars">★★★★★</div><p>"Placeholder testimonial. Replace with a real member quote about their experience and results."</p><div class="who"><div class="av">D</div><div><b>Member name</b><span>Balanced Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"But the gains from the copy trading account ROCK!! 🤘 I put €250 on Tuesday, almost 100% up in 2 days."</p><div class="who"><div class="av">M</div><div><b>Community member</b><span>Apex Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"Resultado de hoy +189.09 USD, ¡gracias jefe! 🔥🔥"</p><div class="who"><div class="av">J</div><div><b>Community member</b><span>Apex Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"Hoy actualmente en $235.29, recuperando de la semana pasada. ¡Vamos por más, jefe! 🙏"</p><div class="who"><div class="av">C</div><div><b>Community member</b><span>Apex Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"I am with you now in the PUPrime copier 👏🔥"</p><div class="who"><div class="av">L</div><div><b>Community member</b><span>Balanced Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"This week started well 😊👍❤️"</p><div class="who"><div class="av">S</div><div><b>Community member</b><span>Steady Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"Flying today 🚀"</p><div class="who"><div class="av">D</div><div><b>Community member</b><span>Balanced Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"Copy trader today 👍"</p><div class="who"><div class="av">R</div><div><b>Community member</b><span>Steady Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"Prima zi 🔥 (first day) and the account is already moving."</p><div class="who"><div class="av">P</div><div><b>Community member</b><span>Apex Gold</span></div></div></div>
+        <div class="testi-card"><div class="stars">★★★★★</div><p>"Let everyone understand, behind this copy trading team is number 1, 2 and 3 in the world. Thank you for meeting you 😊"</p><div class="who"><div class="av">A</div><div><b>Community member</b><span>Apex Gold</span></div></div></div>
       </div>
     </div>
+    <p class="results-note">Individual results shared by members of our community. Past performance does not guarantee future results, and trading carries risk of loss.</p>
   </div>
 </section>
 
@@ -489,7 +516,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
     <h2 class="h2">Three steps to automated freedom</h2>
     <div class="steps" style="grid-template-columns:repeat(3,1fr)">
       <div class="step"><div class="no">1</div><h3>Join the waitlist</h3><p>Reserve your spot before the allocation window closes. No payment to join.</p></div>
-      <div class="step"><div class="no">2</div><h3>Get your account ready</h3><p>Set up and fund your copytrading account so you're ready the moment we launch.</p><a href="#" class="btn ghost" style="margin-top:16px;padding:10px 18px;font-size:14px">View the setup guide →</a></div>
+      <div class="step"><div class="no">2</div><h3>Get your account ready</h3><p>Set up and fund your copytrading account so you're ready the moment we launch.</p><a href="https://t.me/+YG1qPBpMLdhhYjc8" target="_blank" rel="noopener" class="btn ghost" style="margin-top:16px;padding:10px 18px;font-size:14px">View the setup guide →</a></div>
       <div class="step"><div class="no">3</div><h3>Get accepted &amp; contacted</h3><p>Be ready to be contacted soon. If you're accepted into the program, we'll reach out on Telegram with next steps.</p></div>
     </div>
   </div>
@@ -556,7 +583,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
           <div class="chart-cap">Illustrative projection · best-case vs. low-end</div>
           <canvas id="growth"></canvas>
         </div>
-        <a href="#join" class="btn gold block" id="calcCta" style="margin-top:16px">Reserve my Balanced seat →</a>
+        <a href="https://t.me/+YG1qPBpMLdhhYjc8" target="_blank" rel="noopener" class="btn gold block" id="calcCta" style="margin-top:16px">Reserve my Balanced seat →</a>
       </div>
     </div>
     <p class="lead" style="margin-top:22px;font-size:13.5px;color:var(--muted-2)">The percentages shown are target ranges, not predictions or guarantees, and the chart is illustrative only. Trading carries real risk of loss, losing periods are normal, and higher targets always come with higher drawdown. Never connect capital you cannot afford to lose.</p>
@@ -576,7 +603,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
       </div>
       <h3 class="serif" style="font-size:26px;margin-bottom:8px">Finish on Telegram</h3>
       <p style="color:var(--muted);max-width:48ch;margin:0 auto 24px">Click the button, send us a message, and our team will lock in your spot, confirm your tier, and walk you through getting your account ready.</p>
-      <a href="https://t.me/yourchannel" target="_blank" rel="noopener" class="btn gold block" style="font-size:17px;padding:16px;max-width:420px;margin:0 auto">Complete registration on Telegram →</a>
+      <a href="https://t.me/+YG1qPBpMLdhhYjc8" target="_blank" rel="noopener" class="btn gold block" style="font-size:17px;padding:16px;max-width:420px;margin:0 auto">Complete registration on Telegram →</a>
       <p class="form-foot" style="margin-top:16px">No payment required to join the waitlist · Trading involves risk of loss</p>
     </div>
   </div>
@@ -605,7 +632,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
   <div class="wrap">
     <h2 class="h2">The window won't stay open.</h2>
     <p class="lead">Seats in this allocation are limited and filled in order. Reserve yours and launch with the family.</p>
-    <div style="margin-top:26px"><a href="#join" class="btn gold">Join the Waitlist →</a></div>
+    <div style="margin-top:26px"><a href="https://t.me/+YG1qPBpMLdhhYjc8" target="_blank" rel="noopener" class="btn gold">Join the Waitlist →</a></div>
   </div>
 </section>
 
